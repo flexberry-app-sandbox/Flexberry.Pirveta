@@ -22,13 +22,13 @@ export default Controller.extend({
             link: 'i-i-s-pirveta-список-контей-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-список-контей-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-список-контей-l.title'),
-            icon: 'book',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-pirveta-докум-постав-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-докум-постав-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-докум-постав-l.title'),
-            icon: 'briefcase',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-pirveta-формир-распред-l',
@@ -46,31 +46,31 @@ export default Controller.extend({
             link: 'i-i-s-pirveta-формир-рез-пос-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-формир-рез-пос-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-формир-рез-пос-l.title'),
-            icon: 'building',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-pirveta-клиенты-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-клиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-клиенты-l.title'),
-            icon: 'file',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-pirveta-товары-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-товары-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-товары-l.title'),
-            icon: 'paperclip',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-pirveta-пункт-погрузки-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-пункт-погрузки-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-пункт-погрузки-l.title'),
-            icon: 'table',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-pirveta-список-барж-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-список-барж-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-список-барж-l.title'),
-            icon: 'building',
+            icon: 'table',
             children: null
           }]
         }
