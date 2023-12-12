@@ -50,7 +50,8 @@ namespace IIS.Pirveta
             "ДокумПостав.НомерДог",
             "СписокБарж.Производитель",
             "ПунктПогрузки.Наименование",
-            "ДокумПостав.Клиенты"})]
+            "ДокумПостав.Клиенты",
+            "ДокумПостав.Организация"})]
     [MasterViewDefineAttribute("ФормирРаспредE", "СписокКонтей", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "НаимКонт")]
     [MasterViewDefineAttribute("ФормирРаспредE", "ДокумПостав", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "НомерДог")]
     [MasterViewDefineAttribute("ФормирРаспредE", "СписокБарж", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Производитель")]
