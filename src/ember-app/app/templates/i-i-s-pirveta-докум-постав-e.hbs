@@ -82,6 +82,26 @@
     {{flexberry-validationmessage error=(v-get validationModel "клиенты" "message")}}
   </div>
   <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.клиенты.наимЗаказ
+      class=(if (v-get validationModel.клиенты "наимЗаказ" "isInvalid") "error")
+      label=(t "forms.i-i-s-pirveta-докум-постав-e.клиенты.наимЗаказ-caption")
+      data-test-i-i-s-pirveta-докум-постав-e-клиенты-наимЗаказ=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.клиенты "наимЗаказ" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.клиенты.телефон
+      class=(if (v-get validationModel.клиенты "телефон" "isInvalid") "error")
+      label=(t "forms.i-i-s-pirveta-докум-постав-e.клиенты.телефон-caption")
+      data-test-i-i-s-pirveta-докум-постав-e-клиенты-телефон=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.клиенты "телефон" "message")}}
+  </div>
+  <div class="field">
     <label>{{t "forms.i-i-s-pirveta-докум-постав-e.тЧИнфОЗак-caption"}}</label>
     {{flexberry-groupedit
       componentName="тЧИнфОЗакGroupEdit"

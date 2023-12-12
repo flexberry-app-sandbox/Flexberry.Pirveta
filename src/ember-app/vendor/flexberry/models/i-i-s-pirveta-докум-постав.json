@@ -96,10 +96,22 @@
           "hidden": false,
           "attrs": [
             {
+              "name": "наимЗаказ",
+              "caption": "Наим Заказ",
+              "hidden": false,
+              "index": 5
+            },
+            {
+              "name": "телефон",
+              "caption": "Телефон",
+              "hidden": false,
+              "index": 6
+            },
+            {
               "name": "адресПостав",
               "caption": "Адрес постав",
               "hidden": true,
-              "index": 5
+              "index": 7
             }
           ],
           "index": 4,
@@ -167,15 +179,27 @@
           "hidden": false,
           "attrs": [
             {
+              "name": "наимЗаказ",
+              "caption": "",
+              "hidden": false,
+              "index": 3
+            },
+            {
+              "name": "телефон",
+              "caption": "",
+              "hidden": false,
+              "index": 4
+            },
+            {
               "name": "адресПостав",
               "caption": "Адрес постав",
               "hidden": false,
-              "index": 3
+              "index": 5
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Адрес постав",
+          "caption": "",
           "name": "клиенты",
           "relatedTo": "i-i-s-pirveta-клиенты",
           "inverse": null
