@@ -1,0 +1,77 @@
+<h3 class="ui header">{{t "forms.i-i-s-pirveta-клиенты-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.телефон
+      class=(if (v-get validationModel "телефон" "isInvalid") "error")
+      label=(t "forms.i-i-s-pirveta-клиенты-e.телефон-caption")
+      data-test-i-i-s-pirveta-клиенты-e-телефон=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "телефон" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.адресПостав
+      class=(if (v-get validationModel "адресПостав" "isInvalid") "error")
+      label=(t "forms.i-i-s-pirveta-клиенты-e.адресПостав-caption")
+      data-test-i-i-s-pirveta-клиенты-e-адресПостав=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "адресПостав" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.расчСчет
+      class=(if (v-get validationModel "расчСчет" "isInvalid") "error")
+      label=(t "forms.i-i-s-pirveta-клиенты-e.расчСчет-caption")
+      data-test-i-i-s-pirveta-клиенты-e-расчСчет=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "расчСчет" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.наимЗаказ
+      class=(if (v-get validationModel "наимЗаказ" "isInvalid") "error")
+      label=(t "forms.i-i-s-pirveta-клиенты-e.наимЗаказ-caption")
+      data-test-i-i-s-pirveta-клиенты-e-наимЗаказ=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "наимЗаказ" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.иНН
+      class=(if (v-get validationModel "иНН" "isInvalid") "error")
+      label=(t "forms.i-i-s-pirveta-клиенты-e.иНН-caption")
+      data-test-i-i-s-pirveta-клиенты-e-иНН=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "иНН" "message")}}
+  </div>
+</form>

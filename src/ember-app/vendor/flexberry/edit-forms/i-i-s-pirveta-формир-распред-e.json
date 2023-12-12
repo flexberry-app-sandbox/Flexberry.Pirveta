@@ -1,0 +1,47 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СписокКонтей",
+      "projection": "СписокКонтейL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ДокумПостав",
+      "projection": "ДокумПоставL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СписокБарж",
+      "projection": "СписокБаржL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ПунктПогрузки",
+      "projection": "ПунктПогрузкиL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Формир распред",
+  "name": "IISPirvetaФормирРаспредE",
+  "className": "ФормирРаспредE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-формир-распред",
+      "modelProjection": "ФормирРаспредE"
+    }
+  ]
+}

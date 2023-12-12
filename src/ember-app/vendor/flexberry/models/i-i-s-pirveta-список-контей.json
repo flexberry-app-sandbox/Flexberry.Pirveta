@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISPirvetaСписокКонтей",
+  "modelName": "i-i-s-pirveta-список-контей",
+  "className": "СписокКонтей",
+  "nameSpace": "IIS.Pirveta",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наимКонт",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерКонт",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СписокКонтейE",
+      "modelName": "i-i-s-pirveta-список-контей",
+      "attrs": [
+        {
+          "name": "номерКонт",
+          "caption": "Номер конт",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наимКонт",
+          "caption": "Наим конт",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СписокКонтейL",
+      "modelName": "i-i-s-pirveta-список-контей",
+      "attrs": [
+        {
+          "name": "номерКонт",
+          "caption": "Номер конт",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наимКонт",
+          "caption": "Наим конт",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

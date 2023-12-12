@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pirveta-докум-постав-e",
+  "editForm": "i-i-s-pirveta-докум-постав-e",
+  "external": false,
+  "caption": "Докум постав",
+  "name": "IISPirvetaДокумПоставL",
+  "className": "ДокумПоставL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-докум-постав",
+      "modelProjection": "ДокумПоставL"
+    }
+  ]
+}

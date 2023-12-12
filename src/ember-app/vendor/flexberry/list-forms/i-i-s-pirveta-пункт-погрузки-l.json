@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pirveta-пункт-погрузки-e",
+  "editForm": "i-i-s-pirveta-пункт-погрузки-e",
+  "external": false,
+  "caption": "Пункт погрузки",
+  "name": "IISPirvetaПунктПогрузкиL",
+  "className": "ПунктПогрузкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-пункт-погрузки",
+      "modelProjection": "ПунктПогрузкиL"
+    }
+  ]
+}

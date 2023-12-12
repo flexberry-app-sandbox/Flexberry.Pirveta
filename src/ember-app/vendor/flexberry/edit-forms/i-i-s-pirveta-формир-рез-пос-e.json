@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ФормирРаспред",
+      "projection": "ФормирРаспредL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Формир рез пос",
+  "name": "IISPirvetaФормирРезПосE",
+  "className": "ФормирРезПосE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-формир-рез-пос",
+      "modelProjection": "ФормирРезПосE"
+    }
+  ]
+}

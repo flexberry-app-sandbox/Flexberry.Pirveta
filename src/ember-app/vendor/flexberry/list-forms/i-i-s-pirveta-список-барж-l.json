@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pirveta-список-барж-e",
+  "editForm": "i-i-s-pirveta-список-барж-e",
+  "external": false,
+  "caption": "Список барж",
+  "name": "IISPirvetaСписокБаржL",
+  "className": "СписокБаржL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-список-барж",
+      "modelProjection": "СписокБаржL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pirveta-товары-e",
+  "editForm": "i-i-s-pirveta-товары-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISPirvetaТоварыL",
+  "className": "ТоварыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-товары",
+      "modelProjection": "ТоварыL"
+    }
+  ]
+}

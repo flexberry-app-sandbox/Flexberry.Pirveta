@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pirveta-организация-e",
+  "editForm": "i-i-s-pirveta-организация-e",
+  "external": false,
+  "caption": "Организация",
+  "name": "IISPirvetaОрганизацияL",
+  "className": "ОрганизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-организация",
+      "modelProjection": "ОрганизацияL"
+    }
+  ]
+}

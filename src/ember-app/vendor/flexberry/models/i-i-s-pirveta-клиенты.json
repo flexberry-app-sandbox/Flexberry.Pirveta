@@ -1,0 +1,138 @@
+﻿{
+  "name": "IISPirvetaКлиенты",
+  "modelName": "i-i-s-pirveta-клиенты",
+  "className": "Клиенты",
+  "nameSpace": "IIS.Pirveta",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адресПостав",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "иНН",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наимЗаказ",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "расчСчет",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "телефон",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КлиентыE",
+      "modelName": "i-i-s-pirveta-клиенты",
+      "attrs": [
+        {
+          "name": "телефон",
+          "caption": "Телефон",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "адресПостав",
+          "caption": "Адрес постав",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "расчСчет",
+          "caption": "Расч счет",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "наимЗаказ",
+          "caption": "Наим заказ",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "иНН",
+          "caption": "ИНН",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КлиентыL",
+      "modelName": "i-i-s-pirveta-клиенты",
+      "attrs": [
+        {
+          "name": "телефон",
+          "caption": "Телефон",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "адресПостав",
+          "caption": "Адрес постав",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "расчСчет",
+          "caption": "Расч счет",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "наимЗаказ",
+          "caption": "Наим заказ",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "иНН",
+          "caption": "ИНН",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

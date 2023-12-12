@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Организация",
+      "projection": "ОрганизацияL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиенты",
+      "projection": "КлиентыL",
+      "detailModelName": null
+    },
+    {
+      "master": "товары",
+      "displayAttributeName": "наимТовара",
+      "required": true,
+      "relationName": "ТЧИнфОЗак.Товары",
+      "projection": "ТоварыL",
+      "detailModelName": "i-i-s-pirveta-т-ч-инф-о-зак"
+    }
+  ],
+  "external": false,
+  "caption": "Докум постав",
+  "name": "IISPirvetaДокумПоставE",
+  "className": "ДокумПоставE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-докум-постав",
+      "modelProjection": "ДокумПоставE"
+    }
+  ]
+}

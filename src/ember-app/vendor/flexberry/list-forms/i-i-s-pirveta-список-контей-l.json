@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pirveta-список-контей-e",
+  "editForm": "i-i-s-pirveta-список-контей-e",
+  "external": false,
+  "caption": "Список контей",
+  "name": "IISPirvetaСписокКонтейL",
+  "className": "СписокКонтейL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-список-контей",
+      "modelProjection": "СписокКонтейL"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+﻿{
+  "name": "IISPirvetaДокумПостав",
+  "modelName": "i-i-s-pirveta-докум-постав",
+  "className": "ДокумПостав",
+  "nameSpace": "IIS.Pirveta",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерДог",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиенты",
+      "relatedTo": "i-i-s-pirveta-клиенты",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "организация",
+      "relatedTo": "i-i-s-pirveta-организация",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "тЧИнфОЗак",
+      "relatedTo": "i-i-s-pirveta-т-ч-инф-о-зак",
+      "inverse": "докумПостав"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ДокумПоставE",
+      "modelName": "i-i-s-pirveta-докум-постав",
+      "attrs": [
+        {
+          "name": "номерДог",
+          "caption": "Номер дог",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Организация",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Организация",
+          "name": "организация",
+          "relatedTo": "i-i-s-pirveta-организация",
+          "inverse": null
+        },
+        {
+          "lookupValue": "АдресПостав",
+          "lookupValueField": "адресПостав",
+          "relationName": "Клиенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адресПостав",
+              "caption": "Адрес постав",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Клиенты",
+          "name": "клиенты",
+          "relatedTo": "i-i-s-pirveta-клиенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ТЧИнфОЗакE",
+          "caption": "Т ч инф о зак",
+          "name": "тЧИнфОЗак",
+          "relatedTo": "i-i-s-pirveta-т-ч-инф-о-зак",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ДокумПоставL",
+      "modelName": "i-i-s-pirveta-докум-постав",
+      "attrs": [
+        {
+          "name": "номерДог",
+          "caption": "Номер дог",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Организация",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "организация",
+          "relatedTo": "i-i-s-pirveta-организация",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Клиенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адресПостав",
+              "caption": "Адрес постав",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Адрес постав",
+          "name": "клиенты",
+          "relatedTo": "i-i-s-pirveta-клиенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

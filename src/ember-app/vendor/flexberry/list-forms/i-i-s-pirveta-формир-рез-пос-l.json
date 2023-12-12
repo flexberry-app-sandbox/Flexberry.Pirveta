@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pirveta-формир-рез-пос-e",
+  "editForm": "i-i-s-pirveta-формир-рез-пос-e",
+  "external": false,
+  "caption": "Формир рез пос",
+  "name": "IISPirvetaФормирРезПосL",
+  "className": "ФормирРезПосL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-формир-рез-пос",
+      "modelProjection": "ФормирРезПосL"
+    }
+  ]
+}

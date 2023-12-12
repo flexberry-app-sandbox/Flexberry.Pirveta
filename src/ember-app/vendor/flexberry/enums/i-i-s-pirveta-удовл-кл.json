@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Pirveta",
+  "className": "УдовлКл",
+  "enumObjects": {
+    "Удовл": "Удовл",
+    "НеУдовл": "НеУдовл"
+  }
+}

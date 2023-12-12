@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Pirveta",
+  "applicationTitle": "Pirveta",
+  "items": [
+    {
+      "link": null,
+      "menuName": "pirveta",
+      "caption": "Pirveta",
+      "title": "Pirveta",
+      "children": [
+        {
+          "link": "i-i-s-pirveta-список-контей-l",
+          "menuName": null,
+          "caption": "Список контей",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pirveta-докум-постав-l",
+          "menuName": null,
+          "caption": "Докум постав",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pirveta-формир-распред-l",
+          "menuName": null,
+          "caption": "Формир распред",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pirveta-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pirveta-формир-рез-пос-l",
+          "menuName": null,
+          "caption": "Формир рез пос",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pirveta-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pirveta-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pirveta-пункт-погрузки-l",
+          "menuName": null,
+          "caption": "Пункт погрузки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-pirveta-список-барж-l",
+          "menuName": null,
+          "caption": "Список барж",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

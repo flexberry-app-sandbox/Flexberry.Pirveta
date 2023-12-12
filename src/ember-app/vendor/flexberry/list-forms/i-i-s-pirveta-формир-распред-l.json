@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pirveta-формир-распред-e",
+  "editForm": "i-i-s-pirveta-формир-распред-e",
+  "external": false,
+  "caption": "Формир распред",
+  "name": "IISPirvetaФормирРаспредL",
+  "className": "ФормирРаспредL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pirveta-формир-распред",
+      "modelProjection": "ФормирРаспредL"
+    }
+  ]
+}
