@@ -61,19 +61,19 @@
             },
             {
               "name": "едИзм",
-              "caption": "",
+              "caption": "ЕдИзм",
               "hidden": false,
               "index": 3
             },
             {
               "name": "масса",
-              "caption": "",
+              "caption": "Масса",
               "hidden": false,
               "index": 4
             },
             {
               "name": "цена",
-              "caption": "",
+              "caption": "Цена",
               "hidden": false,
               "index": 5
             }

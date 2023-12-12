@@ -61,19 +61,7 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ФормирРаспредE', 'i-i-s-pirveta-формир-распред', {
     номерДокРаспр: attr('Номер док распр', { index: 0 }),
-    дата: attr('Дата', { index: 1 }),
-    списокКонтей: belongsTo('i-i-s-pirveta-список-контей', 'Список контей', {
-      наимКонт: attr('Наим конт', { index: 3, hidden: true })
-    }, { index: 2, displayMemberPath: 'наимКонт' }),
-    докумПостав: belongsTo('i-i-s-pirveta-докум-постав', 'Докум постав', {
-      номерДог: attr('Номер дог', { index: 5, hidden: true })
-    }, { index: 4, displayMemberPath: 'номерДог' }),
-    списокБарж: belongsTo('i-i-s-pirveta-список-барж', 'Список барж', {
-      производитель: attr('Производитель', { index: 7, hidden: true })
-    }, { index: 6, displayMemberPath: 'производитель' }),
-    пунктПогрузки: belongsTo('i-i-s-pirveta-пункт-погрузки', 'Пункт погрузки', {
-      наименование: attr('Наименование', { index: 9, hidden: true })
-    }, { index: 8, displayMemberPath: 'наименование' })
+    дата: attr('Дата', { index: 1 })
   });
 
   modelClass.defineProjection('ФормирРаспредL', 'i-i-s-pirveta-формир-распред', {
@@ -83,7 +71,15 @@ export let defineProjections = function (modelClass) {
       наимКонт: attr('Наим конт', { index: 2 })
     }, { index: -1, hidden: true }),
     докумПостав: belongsTo('i-i-s-pirveta-докум-постав', 'Номер дог', {
-      номерДог: attr('Номер дог', { index: 3 })
+      номерДог: attr('Номер дог', { index: 3 }),
+      клиенты: belongsTo('i-i-s-pirveta-клиенты', '', {
+        наимЗаказ: attr('', { index: 6 }),
+        адресПостав: attr('', { index: 7 }),
+        телефон: attr('', { index: 8 })
+      }, { index: -1, hidden: true }),
+      организация: belongsTo('i-i-s-pirveta-организация', '', {
+        наименование: attr('', { index: 9 })
+      }, { index: -1, hidden: true })
     }, { index: -1, hidden: true }),
     списокБарж: belongsTo('i-i-s-pirveta-список-барж', 'Производитель', {
       производитель: attr('Производитель', { index: 4 })

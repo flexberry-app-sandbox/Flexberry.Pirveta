@@ -33,9 +33,9 @@ namespace IIS.Pirveta
             "Товары as \'Товары\'",
             "Товары.НаимТовара as \'Наим товара\'",
             "Количество as \'Количество\'",
-            "Товары.ЕдИзм",
-            "Товары.Масса",
-            "Товары.Цена"}, Hidden=new string[] {
+            "Товары.ЕдИзм as \'ЕдИзм\'",
+            "Товары.Масса as \'Масса\'",
+            "Товары.Цена as \'Цена\'"}, Hidden=new string[] {
             "Товары.НаимТовара"})]
     [MasterViewDefineAttribute("ТЧИнфОЗакE", "Товары", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "НаимТовара")]
     public class ТЧИнфОЗак : ICSSoft.STORMNET.DataObject

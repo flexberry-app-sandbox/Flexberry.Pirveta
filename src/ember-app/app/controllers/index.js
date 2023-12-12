@@ -22,55 +22,54 @@ export default Controller.extend({
             link: 'i-i-s-pirveta-список-контей-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-список-контей-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-список-контей-l.title'),
-            icon: 'briefcase',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-pirveta-докум-постав-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-докум-постав-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-докум-постав-l.title'),
-            icon: 'chart bar',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-pirveta-формир-распред-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-формир-распред-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-формир-распред-l.title'),
-            icon: 'book',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-pirveta-организация-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-организация-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-организация-l.title'),
-            icon: 'tasks',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-pirveta-формир-рез-пос-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-формир-рез-пос-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-формир-рез-пос-l.title'),
-            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-pirveta-клиенты-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-клиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-клиенты-l.title'),
-            icon: 'folder open',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-pirveta-товары-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-товары-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-товары-l.title'),
-            icon: 'suitcase',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-pirveta-пункт-погрузки-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-пункт-погрузки-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-пункт-погрузки-l.title'),
-            icon: 'paperclip',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-pirveta-список-барж-l',
             caption: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-список-барж-l.caption'),
             title: i18n.t('forms.application.sitemap.pirveta.i-i-s-pirveta-список-барж-l.title'),
-            icon: 'paperclip',
+            icon: 'briefcase',
             children: null
           }]
         }

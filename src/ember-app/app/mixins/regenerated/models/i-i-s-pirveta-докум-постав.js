@@ -65,9 +65,9 @@ export let defineProjections = function (modelClass) {
     тЧИнфОЗак: hasMany('i-i-s-pirveta-т-ч-инф-о-зак', 'Т ч инф о зак', {
       товары: belongsTo('i-i-s-pirveta-товары', 'Товары', {
         наимТовара: attr('Наим товара', { index: 1, hidden: true }),
-        едИзм: attr('', { index: 3 }),
-        масса: attr('', { index: 4 }),
-        цена: attr('', { index: 5 })
+        едИзм: attr('ЕдИзм', { index: 3 }),
+        масса: attr('Масса', { index: 4 }),
+        цена: attr('Цена', { index: 5 })
       }, { index: 0, displayMemberPath: 'наимТовара' }),
       количество: attr('Количество', { index: 2 })
     })
